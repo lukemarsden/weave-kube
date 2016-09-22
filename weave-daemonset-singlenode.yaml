@@ -26,6 +26,8 @@ spec:
           imagePullPolicy: Always
           command:
             - /home/weave/launch.sh
+            - "--ipalloc-init"
+            - "consensus=1"
           livenessProbe:
             httpGet:
               host: 127.0.0.1
