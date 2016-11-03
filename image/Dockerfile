@@ -1,4 +1,4 @@
-FROM weaveworks/plugin:latest
+FROM weaveworks/plugin:1.7.2
 ADD ./weaver ./launch.sh ./kube-peers /home/weave/
 ADD weavedata.db /weavedb/
 COPY ca-certificates.crt /etc/ssl/certs/

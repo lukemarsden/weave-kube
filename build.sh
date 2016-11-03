@@ -22,4 +22,4 @@ $SUDO docker cp $NAME:/etc/ssl/certs/ca-certificates.crt image
 $SUDO docker rm $NAME
 
 # Build the end product
-$SUDO docker build -t weaveworks/weave-kube:$IMAGE_VERSION image
+$SUDO docker build -t lmarsden/weave-kube:$IMAGE_VERSION image
